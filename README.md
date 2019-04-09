@@ -102,6 +102,49 @@ http://localhost:3000
 will appear in your default browser. That is the main UI of this project. You have access to the project through this UI and interact with the app.
 
 
+## Data (On MongoDB Atlas)
+
+### Sample Data Set
+
+Sample data set that contains products' information of the ecommerce platform is exactly as below:
+
+```
+  {
+		"productId": 1,
+		"productName": "a",
+		"inventoryQuantity": 43,
+		"shipOnWeekends": true,
+		"maxBusinessDaysToShip": 13
+	},
+	{
+		"productId": 2,
+		"productName": "b",
+		"inventoryQuantity": 70,
+		"shipOnWeekends": true,
+		"maxBusinessDaysToShip": 18
+	},
+	{
+		"productId": 3,
+		"productName": "c",
+		"inventoryQuantity": 33,
+		"shipOnWeekends": false,
+		"maxBusinessDaysToShip": 15
+	},
+	{
+		"productId": 4,
+		"productName": "d",
+		"inventoryQuantity": 52,
+		"shipOnWeekends": false,
+		"maxBusinessDaysToShip": 18
+	},
+	{
+		"productId": 5,
+		"productName": "e",
+		"inventoryQuantity": 39,
+		"shipOnWeekends": true,
+		"maxBusinessDaysToShip": 19
+	}
+```
 
 
 
