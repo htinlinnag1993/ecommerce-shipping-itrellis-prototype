@@ -146,7 +146,32 @@ Sample data set that contains products' information of the ecommerce platform is
 	}
 ```
 
+A collection with the same five documents (records) as above resides on my private MongoDB Atlas server. You will need to create the same collection with those 5 documents (records) on your own remotely hosted MongoDB database on your MongoDB Atlas.
 
+## Live Demo App on Heroku
+
+Live Demo App version of this app is being hosted on Heroku with a completely separate repo. The address is:
+
+```
+https://ecommerce-itrellis.herokuapp.com/
+```
+
+## Needs, Upcoming Updates & Further Implementations
+
+- Product list on the web UI of the app lists out all the products from the collection in the database. This can lead to a serious issue when we have many products (records) in the collection. The modules for handling this properly will be added soon.
+
+- At this moment, the app does not have feature for letting users change the order date. All the products' latest shipping dates are calculated using today's date (current local date and time). The modules for letting users change the order date and updating the latest shipping dates will be added in the second version of this app.
+
+- In the next version of this app, user accounts, sign-up and sign-in mechanisms will be implemented. Identification and authentication are very essential to provide customized experiences and UI to the users. "Sign Up With Google" and "Sign In With Google" features will be added as it is easier, more convenient, more secure and more reliable for users to sign up for a new account and sign in using their Google account. Google recently announced to deprecate their Google+ API and start providing a different API for the above features. The new API will be used.
+
+## Version
+
+Current version	: 1.1.0
+Upcoming version: 1.2.0
+
+## Authors
+
+* **Htin Linn Aung** - *1 st Prototype*
 
 
 
