@@ -15,3 +15,19 @@ NodeJS  (version 10.15.0)
 NPM     (version 6.4.1)
 ```
 
+### Installing
+
+After downloading, unzipping this project, installing NodeJS and NPM, using terminal/bash with Git installed, go into the project folder. Once inside, there are these directories and files:
+
+```
+client/
+index.js
+node_modules/
+package-lock.json
+routes/
+config/
+models/
+package.json
+README.md
+```
+
