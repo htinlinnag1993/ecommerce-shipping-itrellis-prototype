@@ -166,8 +166,8 @@ https://ecommerce-itrellis.herokuapp.com/
 
 ## Version
 
-Current version	: 1.1.0
-Upcoming version: 1.2.0
+- Current version	: 1.1.0
+- Upcoming version	: 1.2.0
 
 ## Authors
 
