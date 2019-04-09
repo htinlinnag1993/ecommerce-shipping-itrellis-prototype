@@ -31,3 +31,20 @@ package.json
 README.md
 ```
 
+The package.json file lists all the necessary server information about this particular project such as engines, scripts and more importantly, dependencies. By running 
+
+```
+npm install
+```
+
+command, all the necessary dependencies such as
+
+```
+concurrently
+express
+mongoose
+nodemon
+```
+
+for server-side modules will be installed.
+
