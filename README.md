@@ -6,7 +6,7 @@ Prototype for e-commerce shipping web app
 
 You can download this prototype by using "git clone <web url>" command or downloading the zipped folder. See deployment for notes on how to deploy the project on a live system.
 
-Prerequisites
+### Prerequisites
 
 You will need to install these to be able to run this project on your development machine
 
